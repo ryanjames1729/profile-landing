@@ -13,7 +13,7 @@ const Footer = () => {
                     <div>
                         <h1 className="text-xl text-lightGray">Ryan James</h1>
                     </div>
-                    <div class="flex justify-center space-x-4">
+                    <div className="flex justify-center space-x-4">
                         <Link href="https://twitter.com/rjames1729"><SocialIcon url="https://twitter.com/rjames1729" network="twitter" bgColor="#2B2D42" fgColor="#EDF2F4" /></Link>
                         <Link href="https://www.linkedin.com/in/ryan-james-562612172"><SocialIcon url="https://www.linkedin.com/in/ryan-james-562612172" network="linkedin" bgColor="#2B2D42" fgColor="#EDF2F4" /></Link>
                         <Link href="https://github.com/ryanjames1729"><SocialIcon url="https://github.com/ryanjames1729" network="github" bgColor="#2B2D42" fgColor="#EDF2F4" /></Link>
