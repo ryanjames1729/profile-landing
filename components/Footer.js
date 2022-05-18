@@ -14,24 +14,24 @@ const Footer = () => {
                         <h1 className="text-xl text-lightGray">Ryan James</h1>
                     </div>
                     <div class="flex justify-center space-x-4">
-                        <a href="https://twitter.com/rjames1729"><SocialIcon url="https://twitter.com/rjames1729" network="twitter" bgColor="#2B2D42" fgColor="#EDF2F4" /></a>
-                        <a href="https://www.linkedin.com/in/ryan-james-562612172"><SocialIcon url="https://www.linkedin.com/in/ryan-james-562612172" network="linkedin" bgColor="#2B2D42" fgColor="#EDF2F4" /></a>
-                        <a href="https://github.com/ryanjames1729"><SocialIcon url="https://github.com/ryanjames1729" network="github" bgColor="#2B2D42" fgColor="#EDF2F4" /></a>
-                        <a href="https://github.com/ryanjames1729"><SocialIcon url="https://github.com/ryanjames1729" network="email" bgColor="#2B2D42" fgColor="#EDF2F4" /></a>
-                        <a href="#"><SocialIcon url="#" network="telegram" bgColor="#2B2D42" fgColor="#EDF2F4" /></a>
+                        <Link href="https://twitter.com/rjames1729"><SocialIcon url="https://twitter.com/rjames1729" network="twitter" bgColor="#2B2D42" fgColor="#EDF2F4" /></Link>
+                        <Link href="https://www.linkedin.com/in/ryan-james-562612172"><SocialIcon url="https://www.linkedin.com/in/ryan-james-562612172" network="linkedin" bgColor="#2B2D42" fgColor="#EDF2F4" /></Link>
+                        <Link href="https://github.com/ryanjames1729"><SocialIcon url="https://github.com/ryanjames1729" network="github" bgColor="#2B2D42" fgColor="#EDF2F4" /></Link>
+                        <Link href="https://github.com/ryanjames1729"><SocialIcon url="https://github.com/ryanjames1729" network="email" bgColor="#2B2D42" fgColor="#EDF2F4" /></Link>
+                        <Link href="#"><SocialIcon url="#" network="telegram" bgColor="#2B2D42" fgColor="#EDF2F4" /></Link>
                     </div>
                 </div>
 
                 <div className="flex justify-around space-x-32">
                     <div className="flex flex-col space-y-3 text-lightGray">
-                        <a href="https://www.ryanjameswritescode.com/">Blog</a>
-                        <a href="https://github.com/ryanjames1729">Github</a>
-                        <a href="#footer">Contact</a>
+                        <Link href="https://www.ryanjameswritescode.com/">Blog</Link>
+                        <Link href="https://github.com/ryanjames1729">Github</Link>
+                        <Link href="#footer">Contact</Link>
                     </div>
                     <div className="flex flex-col space-y-3 text-lightGray">
-                        <a href="/">Ryan James</a>
-                        <a href="mailto:ryanjames1729@gmail.com">ryanjames1729@gmail.com</a>
-                        <a href="#">You can find me in the 828</a>
+                        <Link href="/">Ryan James</Link>
+                        <Link href="mailto:ryanjames1729@gmail.com">ryanjames1729@gmail.com</Link>
+                        <Link href="#">You can find me in the 828</Link>
                     </div>
                 
                 </div>

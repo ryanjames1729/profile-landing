@@ -8,9 +8,9 @@ const Navbar = () => {
 
   return (
     <div className="flex items-center justify-between px-8 py-8">
-      <a href="/" className="text-xl">
+      <Link href="/" className="text-xl">
         Ryan James
-      </a>
+      </Link>
       <nav>
         <section className="MOBILE-MENU flex lg:hidden">
           <div
@@ -34,13 +34,13 @@ const Navbar = () => {
                 </div>
                 <ul className="flex flex-col items-right justify-between min-h-[100px]">
                     <li className="border-b border-gray-400 my-2 uppercase">
-                        <a href="https://www.ryanjameswritescode.com/">Blog</a>
+                        <Link href="https://www.ryanjameswritescode.com/">Blog</Link>
                     </li>
                     <li className="border-b border-gray-400 my-2 uppercase">
-                        <a href="https://github.com/ryanjames1729">Github</a>
+                        <Link href="https://github.com/ryanjames1729">Github</Link>
                      </li>
                     <li className="border-b border-gray-400 my-2 uppercase">
-                        <a href="#footer">Contact</a>
+                        <Link href="#footer">Contact</Link>
                     </li>
                 </ul>
             </div>
@@ -49,13 +49,13 @@ const Navbar = () => {
 
         <ul className="DESKTOP-MENU hidden uppercase space-x-8 lg:flex">
           <li>
-            <a href="https://www.ryanjameswritescode.com/">Blog</a>
+            <Link href="https://www.ryanjameswritescode.com/">Blog</Link>
           </li>
           <li>
-            <a href="https://github.com/ryanjames1729">Github</a>
+            <Link href="https://github.com/ryanjames1729">Github</Link>
           </li>
           <li>
-            <a href="#">Contact</a>
+            <Link href="#">Contact</Link>
           </li>
         </ul>
       </nav>
