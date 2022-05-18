@@ -67,7 +67,7 @@ const Navbar = () => {
         display: block;
         position: absolute;
         width: 100%;
-        height: 100vh;
+        height: 10vh;
         top: 0;
         left: 0;
         background: white;
