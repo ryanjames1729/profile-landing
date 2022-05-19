@@ -6,11 +6,11 @@ import myImg from '../img/James_Ryan_800px.jpg'
 
 export default function Home(props) {
   return (
-    <div className="h-screen">
-      <main className="h-10 mb-auto items-center">
+    <div className="md:h-screen">
+      <main className="md:h-10 mb-auto items-center">
 
         <section>
-          <div className="max-w-6xl px-5 mx-auto mt-32 text-center">
+          <div className="max-w-6xl px-5 mx-auto mt-32 text-center sm:py-4">
             <div className="flex flex-col mt-24 md:flex-col md:space-x-6 md:px-20 md:mx-1">
               <div className="flex-col items-center p-6 space-y-6 rounded-lg md:flex bg-lightGray"> 
                 <Image 
