@@ -11,7 +11,7 @@ export default function Home(props) {
 
         <section>
           <div className="max-w-6xl px-5 mx-auto mt-32 text-center">
-            <div className="flex flex-col mt-24 md:flex-col md:space-x-6 px-20 md:mx-1">
+            <div className="flex flex-col mt-24 md:flex-col md:space-x-6 md:px-20 md:mx-1">
               <div className="flex-col items-center p-6 space-y-6 rounded-lg md:flex bg-lightGray"> 
                 <Image 
                   src={myImg}
