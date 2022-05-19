@@ -26,15 +26,13 @@ export default function Home({ landingPages }) {
                 <h5 className="text-xl font-bold">
                   Ryan James
                 </h5>
-                <p className="text-sm">
-
-                  {landingPages[0].bio.html}
+                <div className="text-sm" dangerouslySetInnerHTML={{__html: landingPages[0].bio.html}}>
                   {/* I am a teacher with 13 years of experience teaching AP level computer science and mathematics to high school students. I’ve spent the majority of that time learning and teaching computer science, starting computer science programs at 3 different schools. In addition to teaching, I spend time as a consultant writing computer science curriculum for different organizations.
                   <br />
                   <br />
                   Although I have an interest in algorithms from my background studying mathematics, lately I’ve been investing my time in developing websites using different frameworks. Currently I am taking a deeper live into Next.js after spending my previous years using Flask with Python. */}
 
-                </p>
+                </div>
               </div>
             </div>
         </div>
