@@ -3,8 +3,12 @@ import { useState } from "react";
 import Link from 'next/link';
 import Script from 'next/script'
 
-const Navbar = () => {
-    const [isNavOpen, setIsNavOpen] = useState(false);
+import { GraphQLClient } from 'graphql-request'
+
+
+const Navbar = ({ landingPages }) => {
+  
+  const [isNavOpen, setIsNavOpen] = useState(false);
 
   return (
     <div className="flex items-center justify-between px-8 py-8">
@@ -34,10 +38,10 @@ const Navbar = () => {
                 </div>
                 <ul className="flex flex-col items-right justify-between min-h-[100px]">
                     <li className="border-b border-gray-400 my-2 uppercase">
-                        <Link href="https://www.ryanjameswritescode.com/">Blog</Link>
+                        <Link href={landingPages[0].blogLink}>Blog</Link>
                     </li>
                     <li className="border-b border-gray-400 my-2 uppercase">
-                        <Link href="https://github.com/ryanjames1729">Github</Link>
+                        <Link href={landingPages[0].githubLink}>Github</Link>
                      </li>
                     <li className="border-b border-gray-400 my-2 uppercase">
                         <Link href="#footer">Contact</Link>
@@ -49,13 +53,13 @@ const Navbar = () => {
 
         <ul className="DESKTOP-MENU hidden uppercase space-x-8 lg:flex">
           <li>
-            <Link href="https://www.ryanjameswritescode.com/">Blog</Link>
+            <Link href={landingPages[0].blogLink}>Blog</Link>
           </li>
           <li>
-            <Link href="https://github.com/ryanjames1729">Github</Link>
+            <Link href={landingPages[0].githubLink}>Github</Link>
           </li>
           <li>
-            <Link href="#">Contact</Link>
+            <Link href="#footer">Contact</Link>
           </li>
         </ul>
       </nav>
@@ -85,3 +89,5 @@ const Navbar = () => {
 
 
 export default Navbar
+
+
